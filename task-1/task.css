@@ -1,0 +1,83 @@
+/* Center the body content */
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+/* Apply box-sizing to all elements */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Created a responsive column layout */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear the float after the columns */
+
+.row::after {
+  content: "";
+  clear: both;
+}
+
+/* Style the footer */
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: azure;
+  padding: 20px;
+}
+
+/* Apply responsive margins to the body for larger screens */
+
+@media screen and (min-width: 1024px) {
+  body {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+}
+
+/* Adjust image size on screens with a width of 1024px */
+
+@media screen and (width: 1024px) {
+  img, logo.svg {
+      height: 6%;
+      width: 6%;
+  }
+}
+
+/* Adjust column width on screens with a max-width of 800px */
+
+@media screen and (max-width: 800px) {
+  .column {
+      width: 50%;
+  }
+}
+
+/* Adjust column and row width on screens with a max-width of 480px */
+
+@media screen and (max-width: 480px) {
+  .column, .row::after {
+      width: 100%;
+  }
+}
+
+/* Add padding to paragraphs */
+p {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* Add padding to the container */
+.container {
+  padding-left: 3%;
+}

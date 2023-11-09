@@ -1,0 +1,151 @@
+/* Global Styles for the Body */
+body {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styles for the First Big Box */
+.big-box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #8ccff7; /* Light blue background color */
+}
+
+/* Styles for the Center Box Inside Big Box 1 */
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-image: url(https://via.placeholder.com/400); /* Placeholder image */
+}
+
+/* Styles for the Second Big Box */
+.big-box2 {
+  display: flex;
+  margin-top: 30px; /* Margin added to the top of Big Box 2 */
+  flex-direction: column; /* Items inside Big Box 2 will be aligned vertically */
+}
+
+
+.item:hover {
+  background-color: #444; /* Hover color */
+}
+
+.item1 {
+  background-color: #4e89ae;
+  padding: 20px;
+}
+
+.item2 {
+  background-color: #43658b;
+  padding: 20px;
+}
+
+.item3 {
+  background-color: #ed6663;
+  padding: 20px;
+}
+
+.item4 {
+  background-color: #ffa372;
+  padding: 20px;
+}
+
+.big-box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  background-color: #4e89ae; /* Adjust color as needed */
+  margin: 10px; /* Adjust spacing as needed */
+}
+.circle:hover {
+  background-color: #444; /* Hover color */
+}
+
+/* Styles for Circle 1 */
+.circle1 {
+  border-radius: 70px; /* Rounded border with a radius of 70 pixels */
+  width: 70px;
+  height: 70px;
+  background-color: #4e89ae; /* Light blue background color */
+}
+
+/* Styles for Circle 2 */
+.circle2 {
+  border-radius: 80px; /* Rounded border with a radius of 80 pixels */
+  width: 80px;
+  height: 80px;
+  background-color: #43658b; /* Dark blue background color */
+}
+
+/* Styles for Circle 3 */
+.circle3 {
+  border-radius: 90px; /* Rounded border with a radius of 90 pixels */
+  width: 90px;
+  height: 90px;
+  background-color: #ed6663; /* Salmon red background color */
+}
+
+/* Styles for Circle 4 */
+.circle4 {
+  border-radius: 100px; /* Rounded border with a radius of 100 pixels */
+  width: 100px;
+  height: 100px;
+  background-color: #ffa372; /* Orange background color */
+}
+
+/* Styles for the Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #8ccff7; /* Light blue background color */
+}
+
+
+@media (max-width: 800px) {
+  .center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-image: url(https://via.placeholder.com/300);
+  }
+}
+@media (max-width: 480px) {
+  .center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-image: url(https://via.placeholder.com/200);
+  }
+}
+@media (max-width: 620px) {
+  .big-box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+} /*# sourceMappingURL=task.3.css.map */
